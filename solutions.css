@@ -91,6 +91,32 @@
   75% {transform: rotate(270deg);}
 }
 
-.ex-12-button:hover {
-
+.ex-12-button:hover .ex-12-top-white {
+    animation: scorrimento 2s;
 }
+
+@keyframes scorrimento {
+    0% {top: -10px;
+        left: 10%;
+    }
+
+    50% {top: -10px;
+        left: 60%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: scorrimento2 2s;
+}
+
+@keyframes scorrimento2 {
+    0% {bottom: -10px;
+        right: 20%;
+    }
+
+    50% {bottom: -10px;
+        right: 60%;
+    }
+}
+
+/*Preparazione mentale*/
