@@ -41,3 +41,51 @@
     width: 20px;
     height: 20px;
 }
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    transition: all 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(50%);
+    filter: blur(20%);
+}
+
+.ex-8-img {
+    transition: all 2s;
+}
+.ex-8-img:hover {
+    filter: sepia(50%);
+    filter: blur(20%);
+    border-radius: 25px;
+}
+
+.ex-9-img {
+    transition: all 2s;
+}
+.ex-9-img:hover {
+    filter: sepia(50%);
+    filter: blur(20%);
+    border-radius: 25px;
+    transform: scale(1.5);
+}
+
+.ex-10-icon {
+    animation: rotazione1 1s infinite;
+}
+
+@keyframes rotazione1 {
+    100% {transform: rotate(360deg);}
+  }
+
+.ex-11-icon {
+    animation: rotazione2 5s infinite;
+}
+
+@keyframes rotazione2 {
+  75% {transform: rotate(240deg);}
+}
